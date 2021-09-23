@@ -1,4 +1,4 @@
-# sre_Grafana
+# SRE_Grafana
 
 
 # SRE AWS instance with CloudWatch linked to Grafana
