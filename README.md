@@ -50,7 +50,8 @@ After logging in you will be able to change the password to whatever you like.
 1. On the `Welcome to Grafana page`, click the widget called `Add your first data source`.
 2.  Select your chosen data source `Cloudwatch`, and the new page will look like this:
 
-![image](https://user-images.githubusercontent.com/88186084/134772513-a5b14e7d-3bb6-41a5-b755-c6e4561ff953.png)
+![image](https://user-images.githubusercontent.com/88186084/134772580-1c8a27a3-d950-433e-a174-d914b36ba34d.png)
+
 
 3. Input your `AWS keys` in the relevant sections and add the correct region `eu-west-1`
 
