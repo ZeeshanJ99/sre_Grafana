@@ -1,6 +1,3 @@
-# SRE_Grafana
-
-
 # SRE AWS instance with CloudWatch linked to Grafana
  
 ## Set-up
@@ -34,4 +31,33 @@ Use this structure in the file and add your aws keys:
     region = eu-west-1
 
 15. `sudo chmod 0644 /usr/share/grafana/.credentials`
+
+-----------------------------------------------------------------------
+
+## Accessing Grafana
+In order to access Grafana, you need to use the Public IP of the grafana instance that we created previously with the port `IP:3000`.
+
+You will now be shown a login page where the login details are:
+
+- Username: `Admin` Password: `Admin`
+
+After logging in you will be able to change the password to whatever you like.
+
+---------------------------------------------------------------
+
+### Adding a data source
+
+1. On the `Welcome to Grafana page`, click the widget called `Add your first data source`.
+2.  Select your chosen data source `Cloudwatch`, and the new page will look like this:
+
+![image](https://user-images.githubusercontent.com/88186084/134772513-a5b14e7d-3bb6-41a5-b755-c6e4561ff953.png)
+
+3. Input your `AWS keys` in the relevant sections and add the correct region `eu-west-1`
+
+---------------------------------------------------------
+
+### Adding a Dashboard
+On the sidebar, hover over the addition symbol and select `Dashboard`.
+
+
 
